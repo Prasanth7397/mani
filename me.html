@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Emojis with Links</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .emoji-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .emoji-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .emoji-item:hover {
+            transform: scale(1.1);
+        }
+
+        .emoji {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .link {
+            color: #6e8efb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Emojis</h2>
+        <div class="emoji-list">
+            <div class="emoji-item">
+                <div class="emoji">😢</div>
+                <a class="link" href="https://www.google.com/search?q=smiley+images&rlz=1C1GCEU_en-GBIN1114IN1116&oq=smily&gs_lcrp=EgZjaHJvbWUqDAgEEAAYChixAxiABDIJCAAQRRg5GIAEMgwIARAAGAoYsQMYgAQyDAgCEAAYChixAxiABDIHCAMQABiABDIMCAQQABgKGLEDGIAEMgkIBRAAGAoYgAQyCQgGEAAYChiABDIHCAcQABiABDIJCAgQABgKGIAEMgwICRAAGAoYsQMYgATSAQoyMzY5MWowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8" target="_blank">Tear Emoji Link</a>
+            </div>
+            <div class="emoji-item">
+                <div class="emoji">😊</div>
+                <a class="link" href="https://www.google.com/search?q=cut+baby+images&sca_esv=6ebf0840f301bbeb&rlz=1C1GCEU_en-GBIN1114IN1116&sxsrf=ADLYWIIBgGK9PjxYcPuQipH4o-Umvh5XIQ%3A1720431128709&ei=GLKLZvnqKvaE4-EP2dqemAg&ved=0ahUKEwj51qWykZeHAxV2wjgGHVmtB4MQ4dUDCA8&uact=5&oq=cut+baby+images&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2N1dCBiYWJ5IGltYWdlc0gAUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQCYAgCgAgCYAwCSBwCgBwA&sclient=gws-wiz-serp" target="_blank">Smiley Emoji Link</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
